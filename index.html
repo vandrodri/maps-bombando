@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALERTA: Dominação Maps 2025 | ZMaps</title>
+    <meta name="description" content="97% dos perfis do Google Maps vão sumir. Descubra como dominar seu mercado local com IA antes que seja tarde.">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MPYN730S2J'); // SUBSTITUA pelo seu ID do Google Analytics
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #e0e5ec;
+        scroll-behavior: smooth;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      .neumorph-card {
+        background: #e0e5ec;
+        box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
+      }
+      .neumorph-inset {
+        background: #e0e5ec;
+        box-shadow: inset 6px 6px 12px #bec3c9, inset -6px -6px 12px #ffffff;
+      }
+      .neumorph-button {
+        background: #e0e5ec;
+        box-shadow: 8px 8px 16px #bec3c9, -8px -8px 16px #ffffff;
+      }
+      .neumorph-button:active {
+        box-shadow: inset 4px 4px 8px #bec3c9, inset -4px -4px 8px #ffffff;
+      }
+      @keyframes alert-pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      .animate-alert { animation: alert-pulse 1.5s infinite; }
+      @keyframes fade-in-up {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fade-in-up 0.6s ease-out;
+      }
+    </style>
+  </head>
+  <body class="text-slate-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
